@@ -1,0 +1,11 @@
+version: "3.8"
+services: 
+  backend:
+    image: "danny247/fashion-like-backend"
+    ports:
+      - '44360:80'
+  frontend:
+    image: "danny247/fashion-like-frontend"
+    ports:
+      - '80:3000'
+#docker-compose up
